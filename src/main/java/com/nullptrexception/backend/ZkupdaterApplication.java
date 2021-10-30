@@ -9,8 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.nullptrexception.backend.repositories")
 @EntityScan(basePackages = "com.nullptrexception.backend.entity")
-@ComponentScan({ "com.nullptrexception.backend", "controller" })
-
+@ComponentScan(basePackages = {"com.nullptrexception.backend.Controller"})
 public class ZkupdaterApplication {
 
 	public static void main(String[] args) {
