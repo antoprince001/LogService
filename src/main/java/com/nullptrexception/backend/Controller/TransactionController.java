@@ -20,7 +20,7 @@ import com.nullptrexception.backend.Repositories.TransactionRepo;
 public class TransactionController {
 
 	
-	@Autowired
+	//@Autowired
 	TransactionRepo transRepo;
 	
 	
